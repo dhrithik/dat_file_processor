@@ -9,7 +9,7 @@ class DataProcessorApp:
     def __init__(self, root):
         self.root = root
         self.root.title("DAT FILE PROCESSOR")
-        self.root.geometry("700x500")
+        self.root.geometry("750x500")
 
         # Set custom icon (change 'icon.ico' to your icon file name)
         icon_path = os.path.join(os.path.dirname(__file__), 'data_analysis_icon_179855.ico')
